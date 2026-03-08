@@ -32,19 +32,12 @@ Instalar estas extensiones desde el principio evita muchos problemas durante los
 
 ## 📍 Abrir el panel de extensiones
 
-En VS Code abrir el panel de extensiones:
+En VS Code puedes abrir el panel de extensiones de dos formas:
 
-```
-Ctrl + Shift + X
-```
+1. Pulsa **Ctrl + Shift + X** (o Cmd + Shift + X en Mac).
+2. O haz clic en el **icono de extensiones** en la **barra lateral izquierda** (suele ser un cuadrado formado por cuatro piezas o el icono que pone "Extensions"). Ese icono abre el mismo panel.
 
-O seleccionar el icono:
-
-```
-Extensions
-```
-
-en la barra lateral izquierda.
+Verás un cuadro de búsqueda arriba y una lista de extensiones; desde ahí instalas las que se indican a continuación.
 
 ---
 
@@ -54,19 +47,7 @@ Instalar las siguientes extensiones.
 
 ### Extension Pack for Java
 
-Buscar:
-
-```
-Extension Pack for Java
-```
-
-Publicador:
-
-```
-Microsoft
-```
-
-Instalar.
+En el **cuadro de búsqueda** del panel de extensiones (arriba), escribe: **Extension Pack for Java**. Debe ser el del publicador **Microsoft**. Haz clic en el botón **Instalar** (o "Install") que aparece debajo del nombre de la extensión. Espera a que termine la instalación.
 
 Este paquete incluye:
 
@@ -79,19 +60,7 @@ Este paquete incluye:
 
 ### Spring Boot Extension Pack
 
-Buscar:
-
-```
-Spring Boot Extension Pack
-```
-
-Publicador:
-
-```
-VMware
-```
-
-Instalar.
+En el mismo cuadro de búsqueda escribe: **Spring Boot Extension Pack**. Publicador **VMware**. Haz clic en **Instalar** y espera a que termine.
 
 Permite:
 
@@ -103,19 +72,7 @@ Permite:
 
 ### BPMN Editor
 
-Buscar:
-
-```
-BPMN Editor
-```
-
-Publicador:
-
-```
-bpmn-io
-```
-
-Instalar.
+Busca **BPMN Editor** (publicador **bpmn-io**). Haz clic en **Instalar**.
 
 Esta extensión permite:
 
@@ -126,19 +83,7 @@ Esta extensión permite:
 
 ### Maven for Java
 
-Buscar:
-
-```
-Maven for Java
-```
-
-Publicador:
-
-```
-Microsoft
-```
-
-Instalar.
+Busca **Maven for Java** (publicador **Microsoft**). Haz clic en **Instalar**.
 
 Permite:
 
@@ -150,10 +95,7 @@ Permite:
 
 ## ✅ Verificación
 
-Una vez instaladas las extensiones:
-
-1. Abrir el panel de **Extensiones instaladas**
-2. Verificar que aparecen:
+Una vez instaladas, en el **mismo panel de extensiones** (Ctrl+Shift+X) verás una sección tipo "Installed" o "Instaladas". Ahí deberían aparecer:
 
 ```
 Extension Pack for Java

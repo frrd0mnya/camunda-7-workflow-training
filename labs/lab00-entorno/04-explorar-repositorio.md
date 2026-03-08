@@ -15,7 +15,7 @@ Antes de empezar a trabajar con Camunda es importante identificar dónde se encu
 
 ## 📁 Ver estructura del repositorio
 
-Abrir una terminal en VS Code y ejecutar:
+Abre una **terminal** en VS Code (menú **Terminal** → **New Terminal**). Asegúrate de estar en la **raíz del repositorio** (la carpeta donde está el **README.md** del proyecto; si acabas de abrir el repo, ya estarás ahí). Ejecuta:
 
 ```bash
 tree
@@ -127,7 +127,7 @@ Los archivos tendrán extensión:
 
 ## 🔎 Explorar el directorio labs
 
-Abrir el directorio `labs` y observar los distintos laboratorios.
+En el **explorador de archivos** de VS Code (barra lateral **izquierda**), haz clic en la carpeta **labs** para expandirla. Verás los distintos laboratorios (lab00-entorno, lab01-bpmn-introduccion, etc.).
 
 Cada laboratorio incluye varios archivos con pasos numerados.
 

@@ -27,7 +27,7 @@ pom.xml
 
 ## 📍 Ir al directorio del backend
 
-Abrir una terminal en VS Code y cambiar al directorio del backend:
+Abre una **terminal** en VS Code (menú **Terminal** → **New Terminal**). Desde la **raíz del repositorio** (donde están el README, las carpetas **labs** y **backend**), cambia al directorio del backend:
 
 ```bash
 cd backend
@@ -103,7 +103,7 @@ Si aparece algún error:
 
 * verificar que **Java 17** está instalado
 * verificar que **Maven** funciona correctamente
-* comprobar que el comando se ejecuta dentro del directorio `backend`
+* comprobar que el comando se ejecuta **dentro** del directorio `backend` (en la terminal deberías ver algo como `.../backend` en el prompt)
 
 ---
 

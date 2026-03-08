@@ -24,7 +24,7 @@ Al arrancar la aplicación se iniciará:
 
 ## 📍 Ir al directorio del backend
 
-Abrir una terminal y moverse al directorio del backend:
+Abre una **terminal** en VS Code (menú **Terminal** → **New Terminal**). Desde la **raíz del repositorio** (donde están README, **labs** y **backend**), ejecuta:
 
 ```bash
 cd backend
@@ -67,7 +67,7 @@ La aplicación se ejecutará en el puerto:
 
 ## 🔎 Verificar que la aplicación está funcionando
 
-Abrir un navegador y acceder a:
+Abre un **navegador** y en la barra de direcciones escribe:
 
 ```
 http://localhost:8080

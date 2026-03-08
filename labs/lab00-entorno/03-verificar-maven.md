@@ -32,7 +32,7 @@ Este archivo define:
 
 ## 🔎 Verificar instalación de Maven
 
-Abrir una terminal en VS Code o Codespaces y ejecutar:
+Abre una **terminal** en VS Code (menú **Terminal** → **New Terminal**). Desde esa terminal ejecuta:
 
 ```bash id="y5z6dd"
 mvn -v

@@ -22,7 +22,7 @@ Antes de continuar es necesario verificar que Java está instalado correctamente
 
 ## 🔎 Verificar versión de Java
 
-Abrir una terminal en VS Code o Codespaces y ejecutar:
+Abre una **terminal** en VS Code (menú **Terminal** → **New Terminal**, o atajo **Ctrl+ñ** / **Ctrl+`** según tu sistema). En la terminal ejecuta:
 
 ```bash
 java -version
