@@ -53,6 +53,29 @@ Deberías ver la **pantalla de login** de Camunda.
 
 ---
 
+# Problema frecuente: redirecciones incorrectas
+
+En algunos entornos (por ejemplo laboratorios remotos o plataformas de formación) al abrir `/camunda` el navegador puede ser **redirigido continuamente** a un dominio/puerto incorrecto (por ejemplo, añadiendo `:8080` cuando tú no estás usando ese puerto).
+
+En ese caso puedes ajustar la configuración de Spring Boot para que las redirecciones se construyan correctamente:
+
+```yaml
+server:
+  forward-headers-strategy: framework
+```
+
+Si además necesitas fijar un puerto concreto (por ejemplo `8080` o `8081`), puedes incluirlo en el mismo bloque:
+
+```yaml
+server:
+  port: 8081
+  forward-headers-strategy: framework
+```
+
+Tras aplicar esta configuración y **reiniciar la aplicación**, vuelve a acceder a la URL de Cockpit indicada por el laboratorio. Si el problema persiste, revisa que el puerto configurado en `server.port` coincida con el puerto que aparece en los logs de arranque (`Tomcat started on port(s): ...`).
+
+---
+
 # Iniciar sesión
 
 Si en **application.properties** (o **application.yml**) configuraste usuario y contraseña para Camunda, úsalos. Por ejemplo suele ser **demo** / **demo**. Si no configuraste nada, algunas instalaciones permiten acceso sin login; si pide credenciales y no las tienes, añade en application.properties las propiedades de usuario/contraseña de Camunda (consulta la documentación del starter).
